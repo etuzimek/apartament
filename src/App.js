@@ -1,10 +1,12 @@
 import ContactForm from "./Contact";
-import PhotoGallery from "./Gallery";
+import Gallery from "./Gallery";
+import Home from "./Home";
 
 function App() {
   return (
     <>
-      <PhotoGallery />
+      <Home />
+      <Gallery />
       <ContactForm />
     </>
   );
