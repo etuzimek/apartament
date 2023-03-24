@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
 import ImageGallery from 'react-image-gallery';
+import "./App.css";
+import image from './images/image.jpg'
+import image2 from './images/image2.jpg'
 
 const images = [
   {
-    original: 'url_do_zdjęcia_1',
-    thumbnail: 'url_do_miniatury_1',
+    original: image2,
+    thumbnail: image,
   },
   {
     original: 'url_do_zdjęcia_2',
